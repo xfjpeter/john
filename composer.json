@@ -1,0 +1,24 @@
+{
+    "name": "ssf/Ssf-1",
+    "description": "ssf Basic Project Template",
+    "keywords": ["ssf", "framework", "basic", "project template"],
+    "homepage": "http://xfjjs.club",
+    "type": "project",
+    "require": {
+        "php": ">=5.4.0",
+        "filp/whoops" : "*",
+        "symfony/var-dumper" : "*",
+        "catfan/medoo" : "*",
+        "twig/twig" : "*",
+        "toohamster/ws-http": "*",
+        "nette/mail" : "*"
+    },
+    "autoload": {
+    "classmap": [
+        "app/controllers",
+        "app/models",
+        "core",
+        "plugin"
+    ]
+  }
+}
